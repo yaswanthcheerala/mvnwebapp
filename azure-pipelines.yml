@@ -21,3 +21,11 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
+- task: TomcatDeployment@1
+  inputs:
+    TomcatUrl: 'https://c5c9-14-195-14-234.ngrok-free.app/'
+    Username: 'admin'
+    Password: 'admin'
+    Warfile: 'target/mvnwebapp.war'
+    Context: '/Pravasy-test'
+    ServerVersion: '7OrAbove'
