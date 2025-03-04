@@ -24,8 +24,8 @@ steps:
 - task: TomcatDeployment@1
   inputs:
     TomcatUrl: 'http://3.111.245.2:8080/'
-    Username: 'admin'
-    Password: 'admin'
-    Warfile: 'targer/mvnwebapp.war'
+    Username: 'Yash'
+    Password: 'Yash'
+    Warfile: 'target/mvnwebapp.war'
     Context: '/pravasy-teast'
     ServerVersion: '7OrAbove'
