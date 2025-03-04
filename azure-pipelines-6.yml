@@ -27,5 +27,5 @@ steps:
     Username: 'Yash'
     Password: 'Yash'
     Warfile: 'target/mvnwebapp.war'
-    Context: '/Pravasy-teast'
+    Context: '/defult'
     ServerVersion: '7OrAbove'
